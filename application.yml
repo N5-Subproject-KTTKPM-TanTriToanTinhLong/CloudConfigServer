@@ -8,7 +8,3 @@ eureka:
   client:
     serviceUrl:
       defaultZone: https://n5-subprj-eurekaserver.herokuapp.com/eureka
-      non-secure-port-enabled: true
-      non-secure-port: 80
-      secure-port: 443
-      secure-port-enabled: false

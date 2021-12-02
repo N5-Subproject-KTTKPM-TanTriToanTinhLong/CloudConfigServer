@@ -1,14 +1,1 @@
 message: Tân
-
-eureka:
-  instance:
-    hostname: jwt-foody.herokuapp.com
-    non-secure-port-enabled: true
-    non-secure-port: 80
-    secure-port: 443
-    secure-port-enabled: false
-    homePageUrl: https://${eureka.instance.hostName}/
-    home-page-url-path: https://${eureka.instance.hostName}
-  client:
-    serviceUrl:
-      defaultZone: https://n5-subprj-eurekaserver.herokuapp.com/eureka

@@ -1,1 +1,6 @@
 message: Tân
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: https://n5-subprj-eurekaserver.herokuapp.com/eureka
